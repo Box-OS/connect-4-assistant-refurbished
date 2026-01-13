@@ -74,7 +74,7 @@ set CLASSPATH=%APP_HOME%\lib\connect-4-assistant-refurbished.jar;%APP_HOME%\lib\
 
 
 @rem Execute connect-4-assistant-refurbished
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %CONNECT_4_ASSISTANT_REFURBISHED_OPTS%  -classpath "%CLASSPATH%" Main %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %CONNECT_4_ASSISTANT_REFURBISHED_OPTS%  -classpath "%CLASSPATH%" app.Main %*
 
 :end
 @rem End local scope for the variables with windows NT shell

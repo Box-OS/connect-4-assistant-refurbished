@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BoardHandlerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-01-13T06:05:35.227Z" hostname="SINA-PC" time="0.008">
+  <properties/>
+  <testcase name="pieceCounter" classname="BoardHandlerTest" time="0.0"/>
+  <testcase name="placePiece" classname="BoardHandlerTest" time="0.002"/>
+  <testcase name="findLowestRow" classname="BoardHandlerTest" time="0.002"/>
+  <testcase name="dump" classname="BoardHandlerTest" time="0.001"/>
+  <testcase name="checkForWin" classname="BoardHandlerTest" time="0.0"/>
+  <testcase name="rateLine" classname="BoardHandlerTest" time="0.0"/>
+  <testcase name="evalBoard" classname="BoardHandlerTest" time="0.001"/>
+  <testcase name="nextMove" classname="BoardHandlerTest" time="0.001"/>
+  <testcase name="findBestMove" classname="BoardHandlerTest" time="0.001"/>
+  <system-out><![CDATA[1
+Util.Board starting state-------
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+State after user 1 places a disc in the first column
+0000000
+0000000
+0000000
+0000000
+0000000
+0010000
+
+
+0000000
+0000000
+0000000
+0000000
+0000000
+0020000
+
+
+The x-coordinate to place the next disc on the current board is：5
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+Go on !!!
+-5
+Points earned：100
+Starting state of the board
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+0000000
+0000000
+0000000
+0000000
+0000000
+0000000
+
+
+The next landing position is：0
+The most winnable column is:6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
