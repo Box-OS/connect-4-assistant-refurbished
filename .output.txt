@@ -1,0 +1,418 @@
+
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/12/2026  11:41 PM                .gradle
+d-----         1/13/2026  12:50 AM                .idea
+d-----         1/13/2026  12:44 AM                build
+d-----         1/12/2026  11:41 PM                gradle
+d-----         1/13/2026  12:40 AM                src
+-a----         1/12/2026  11:06 PM            386 .gitignore
+-a----         1/13/2026  12:48 AM            504 build.gradle
+-a----         1/12/2026  11:08 PM            514 connect-4-assistant-refurbish
+                                                  ed.iml
+-a----         1/12/2026  11:41 PM           8728 gradlew
+-a----         1/12/2026  11:41 PM           2937 gradlew.bat
+-a----         1/12/2026  11:06 PM             31 README.md
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\.gradle
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/12/2026  11:41 PM                9.0.0
+d-----         1/12/2026  11:41 PM                buildOutputCleanup
+d-----         1/12/2026  11:41 PM                vcs-1
+-a----         1/13/2026  12:05 AM              8 file-system.probe
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\9.0.0
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:02 AM                checksums
+d-----         1/12/2026  11:41 PM                executionHistory
+d-----         1/12/2026  11:41 PM                expanded
+d-----         1/12/2026  11:41 PM                fileChanges
+d-----         1/13/2026  12:05 AM                fileHashes
+d-----         1/12/2026  11:41 PM                vcsMetadata
+-a----         1/12/2026  11:41 PM              0 gc.properties
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\9.0.0\checksums
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:50 AM             17 checksums.lock
+-a----         1/13/2026  12:36 AM          19297 md5-checksums.bin
+-a----         1/13/2026  12:36 AM          20441 sha1-checksums.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\9.0.0\executionHistory
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM         104707 executionHistory.bin
+-a----         1/13/2026  12:50 AM             17 executionHistory.lock
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\9.0.0\fileChanges
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:50 AM              1 last-build.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\9.0.0\fileHashes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM          23897 fileHashes.bin
+-a----         1/13/2026  12:50 AM             17 fileHashes.lock
+-a----         1/13/2026  12:44 AM          21387 resourceHashesCache.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\buildOutputCleanup
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:50 AM             17 buildOutputCleanup.lock
+-a----         1/12/2026  11:41 PM             53 cache.properties
+-a----         1/13/2026  12:50 AM          19325 outputFiles.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.gradle\vcs-1
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/12/2026  11:41 PM              0 gc.properties
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\.idea
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:36 AM                modules
+-a----         1/12/2026  11:08 PM            238 .gitignore
+-a----         1/13/2026  12:22 AM            174 compiler.xml
+-a----         1/12/2026  11:41 PM            195 copilot.data.migration.agent.
+                                                  xml
+-a----         1/12/2026  11:08 PM            199 copilot.data.migration.ask2ag
+                                                  ent.xml
+-a----         1/12/2026  11:41 PM            194 copilot.data.migration.edit.x
+                                                  ml
+-a----         1/12/2026  11:56 PM            527 gradle.xml
+-a----         1/13/2026  12:22 AM            481 misc.xml
+-a----         1/13/2026  12:36 AM            347 modules.xml
+-a----         1/12/2026  11:08 PM            225 vcs.xml
+-a----         1/13/2026  12:50 AM          16975 workspace.xml
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \.idea\modules
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:34 AM            405 connect-4-assistant-refurbish
+                                                  ed.main.iml
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\build
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:29 AM                classes
+d-----         1/13/2026  12:05 AM                distributions
+d-----         1/13/2026  12:29 AM                generated
+d-----         1/13/2026  12:05 AM                libs
+d-----         1/13/2026  12:44 AM                reports
+d-----         1/13/2026  12:44 AM                resources
+d-----         1/13/2026  12:05 AM                scripts
+d-----         1/13/2026  12:44 AM                test-results
+d-----         1/13/2026  12:44 AM                tmp
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:46 AM                main
+d-----         1/13/2026  12:44 AM                test
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\main
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:46 AM                app
+d-----         1/13/2026  12:46 AM                logic
+d-----         1/13/2026  12:46 AM                scene
+d-----         1/13/2026  12:46 AM                ui
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\main\app
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM            827 Main$GameStart.class
+-a----         1/13/2026  12:46 AM            808 Main.class
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\main\logic
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM            572 ArrayHandler.class
+-a----         1/13/2026  12:46 AM           5145 BoardHandler.class
+-a----         1/13/2026  12:46 AM           1049 GravityHandler.class
+-a----         1/13/2026  12:46 AM            481 InputHandler.class
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\main\scene
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM            532 BaseScene.class
+-a----         1/13/2026  12:46 AM           1731 MenuScene.class
+-a----         1/13/2026  12:46 AM           2879 PlayNodes.class
+-a----         1/13/2026  12:46 AM            390 PlayScene.class
+-a----         1/13/2026  12:46 AM           1730 StageBuilder.class
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\main\ui
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM           1713 Board.class
+-a----         1/13/2026  12:46 AM           1161 ButtonBuilder.class
+-a----         1/13/2026  12:46 AM           1238 Circle.class
+-a----         1/13/2026  12:46 AM           2133 HelpButton.class
+-a----         1/13/2026  12:46 AM            520 Input.class
+-a----         1/13/2026  12:46 AM           4288 InputButton.class
+-a----         1/13/2026  12:46 AM           2259 MenuNodes.class
+-a----         1/13/2026  12:46 AM           1257 Output.class
+-a----         1/13/2026  12:46 AM           2894 RestartButton.class
+-a----         1/13/2026  12:46 AM           1684 Slot.class
+-a----         1/13/2026  12:46 AM            746 TextAreaBuilder.class
+-a----         1/13/2026  12:46 AM           1033 TextBuilder.class
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\classes\java\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           1106 ArrayHandlerTest.class
+-a----         1/13/2026  12:44 AM           4003 BoardHandlerTest.class
+-a----         1/13/2026  12:44 AM           2659 GravityHandlerTest.class
+-a----         1/13/2026  12:44 AM            829 InputHandlerTest.class
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\distributions
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:05 AM        9431552 connect-4-assistant-refurbish
+                                                  ed.tar
+-a----         1/13/2026  12:05 AM        8577474 connect-4-assistant-refurbish
+                                                  ed.zip
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:29 AM                sources
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated\sources
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:29 AM                annotationProcessor
+d-----         1/13/2026  12:29 AM                headers
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated\sources\annotationProcessor
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated\sources\annotationProcessor\java
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:29 AM                main
+d-----         1/13/2026  12:44 AM                test
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated\sources\headers
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\generated\sources\headers\java
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:29 AM                main
+d-----         1/13/2026  12:44 AM                test
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\build\libs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:05 AM            261 connect-4-assistant-refurbish
+                                                  ed.jar
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:43 AM                problems
+d-----         1/13/2026  12:44 AM                tests
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\problems
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:43 AM         147371 problems-report.html
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                test
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                classes
+d-----         1/13/2026  12:44 AM                css
+d-----         1/13/2026  12:44 AM                js
+d-----         1/13/2026  12:44 AM                packages
+-a----         1/13/2026  12:44 AM           2458 index.html
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests\test\classes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           2202 InputHandlerTest.html
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests\test\css
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           2428 base-style.css
+-a----         1/13/2026  12:44 AM           1135 style.css
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests\test\js
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           6243 report.js
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\reports\tests\test\packages
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           2089 default-package.html
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\resources
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                main
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\resources\main
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM        1229078 blue-circle.png
+-a----         1/13/2026  12:44 AM         592406 menu-background.png
+-a----         1/13/2026  12:44 AM         694918 red-circle.png
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\scripts
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:05 AM           8978 connect-4-assistant-refurbish
+                                                  ed
+-a----         1/13/2026  12:05 AM           3211 connect-4-assistant-refurbish
+                                                  ed.bat
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\test-results
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                test
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\test-results\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                binary
+-a----         1/13/2026  12:44 AM            405 TEST-InputHandlerTest.xml
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\test-results\test\binary
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM             27 output.bin
+-a----         1/13/2026  12:44 AM             36 output.bin.idx
+-a----         1/13/2026  12:44 AM             84 results.bin
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\build\tmp
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:46 AM                compileJava
+d-----         1/13/2026  12:44 AM                compileTestJava
+d-----         1/13/2026  12:05 AM                jar
+d-----         1/13/2026  12:44 AM                test
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\tmp\compileJava
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:46 AM          21216 previous-compilation-data.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\tmp\compileTestJava
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM            742 previous-compilation-data.bin
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \build\tmp\jar
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:05 AM             25 MANIFEST.MF
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\gradle
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/12/2026  11:41 PM                wrapper
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \gradle\wrapper
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/12/2026  11:41 PM          45457 gradle-wrapper.jar
+-a----         1/12/2026  11:41 PM            252 gradle-wrapper.properties
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\src
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:40 AM                main
+d-----         1/13/2026  12:33 AM                test
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\src\main
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                java
+d-----         1/12/2026  11:06 PM                resources
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\java
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:44 AM                app
+d-----         1/13/2026  12:38 AM                logic
+d-----         1/13/2026  12:42 AM                scene
+d-----         1/13/2026  12:44 AM                ui
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\java\app
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:44 AM           1097 Main.java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\java\logic
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:38 AM            734 ArrayHandler.java
+-a----         1/13/2026  12:38 AM          12693 BoardHandler.java
+-a----         1/13/2026  12:38 AM           2393 GravityHandler.java
+-a----         1/13/2026  12:38 AM            934 InputHandler.java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\java\scene
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:38 AM            381 BaseScene.java
+-a----         1/13/2026  12:42 AM            526 MenuScene.java
+-a----         1/13/2026  12:42 AM           3027 PlayNodes.java
+-a----         1/13/2026  12:38 AM            264 PlayScene.java
+-a----         1/13/2026  12:38 AM           1602 StageBuilder.java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\java\ui
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:38 AM           1752 Board.java
+-a----         1/13/2026  12:38 AM            921 ButtonBuilder.java
+-a----         1/13/2026  12:38 AM            998 Circle.java
+-a----         1/13/2026  12:38 AM           1179 HelpButton.java
+-a----         1/13/2026  12:38 AM            485 Input.java
+-a----         1/13/2026  12:42 AM           3526 InputButton.java
+-a----         1/13/2026  12:40 AM           1219 MenuNodes.java
+-a----         1/13/2026  12:40 AM            719 Output.java
+-a----         1/13/2026  12:44 AM           1547 RestartButton.java
+-a----         1/13/2026  12:40 AM           1584 Slot.java
+-a----         1/13/2026  12:40 AM            667 TextAreaBuilder.java
+-a----         1/13/2026  12:40 AM            621 TextBuilder.java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\main\resources
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/12/2026  11:06 PM        1229078 blue-circle.png
+-a----         1/12/2026  11:06 PM         592406 menu-background.png
+-a----         1/12/2026  11:06 PM         694918 red-circle.png
+    Directory:
+    C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished\src\test
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         1/13/2026  12:43 AM                java
+    Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
+    \src\test\java
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/13/2026  12:42 AM            978 ArrayHandlerTest.java
+-a----         1/13/2026  12:42 AM           4679 BoardHandlerTest.java
+-a----         1/13/2026  12:43 AM           3001 GravityHandlerTest.java
+-a----         1/13/2026  12:43 AM            718 InputHandlerTest.java

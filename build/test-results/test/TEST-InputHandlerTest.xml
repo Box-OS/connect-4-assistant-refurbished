@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InputHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-13T05:44:35.567Z" hostname="SINA-PC" time="0.005">
+  <properties/>
+  <testcase name="checkInRange" classname="InputHandlerTest" time="0.005"/>
+  <system-out><![CDATA[Meet the requirements
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
