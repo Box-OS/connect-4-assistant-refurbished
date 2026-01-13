@@ -17,6 +17,6 @@ A JavaFX desktop app that helps play/analyze Connect 4. Refurbished from an olde
 .\gradlew run
 ```
 
-###Original Repo
+### Original Repo
 Link: https://github.com/Box-OS/Connect_Four_Assistant
 
