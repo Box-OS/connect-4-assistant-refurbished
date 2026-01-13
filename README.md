@@ -9,12 +9,13 @@ A JavaFX desktop app that helps play/analyze Connect 4. Refurbished from an olde
 ## Run
 ### Windows (PowerShell)
 ```powershell
-.\gradlew run
+./gradlew run
 ```
 
 ### macOS / Linux
-```powershell
-.\gradlew run
+```terminal
+chmod +x gradlew
+./gradlew run
 ```
 
 ## Original Repo
