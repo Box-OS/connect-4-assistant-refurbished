@@ -24,7 +24,7 @@ public class RestartButton extends ButtonBuilder {
             setupAlert();
             Optional<ButtonType> result = ALERT.showAndWait();
             if (result.isPresent() && result.get() == ButtonType.YES) {
-                Main.GameStart.restartGame();
+                Main.restartGame();
             }
         };
         button.setOnAction(event);
