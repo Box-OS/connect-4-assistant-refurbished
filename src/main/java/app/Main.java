@@ -1,8 +1,10 @@
 package app;
 
-import scene.StageBuilder;
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
+import ui.MenuNodes;
+import ui.PlayNodes;
 
 /** Main.java
  *  Starts the program and makes a stage
@@ -10,52 +12,48 @@ import javafx.stage.Stage;
  *  @author Sina Akhavan
  */
 public class Main extends Application {
+    private static Stage primaryStage;
+    private static Scene menuScene;
+    private static Scene playScene;
+
     public static void main(String[] args) {
         launch(args);
     }
 
-    // Formerly inside GameStart: keep a single StageBuilder reference at the class level.
-    private static StageBuilder stageBuilder;
-
     @Override
     public void start(Stage stage) {
-        // Create the UI (we don't reuse the provided Stage because StageBuilder creates its own Stage)
-        startGame();
+        primaryStage = stage;
+        setupScenes();
+        showMenu();
+        
+        primaryStage.setTitle("Connect 4 Assistant");
+        primaryStage.setResizable(false);
+        primaryStage.show();
+    }
+
+    private static void setupScenes() {
+        MenuNodes menuNodes = new MenuNodes(600, 300);
+        menuScene = new Scene(menuNodes.getROOT());
+        
+        PlayNodes playNodes = new PlayNodes();
+        playScene = new Scene(playNodes.getROOT());
+
+        menuScene.setOnMousePressed(e -> showPlay());
+    }
+
+    public static void showMenu() {
+        primaryStage.setScene(menuScene);
+    }
+
+    public static void showPlay() {
+        primaryStage.setScene(playScene);
     }
 
     /**
-     * Creates or (re)initializes the StageBuilder and window.
-     */
-    private static void startGame() {
-        // Close any existing stage builder to avoid leaking windows/resources
-        if (stageBuilder != null) {
-            try {
-                stageBuilder.closeStage();
-            } catch (Exception ignored) {
-                // be defensive: if closeStage throws, continue to recreate
-            }
-            stageBuilder = null;
-        }
-
-        // Construct a new StageBuilder. StageBuilder currently creates its own Stage.
-        stageBuilder = new StageBuilder("Connect 4 Assistant");
-        stageBuilder.setWindowSettings(false, false);
-    }
-
-    /**
-     * Restarts the game window. Safe to call even if stageBuilder is null.
+     * Restarts the game window.
      */
     public static void restartGame() {
-        if (stageBuilder != null) {
-            try {
-                stageBuilder.closeStage();
-            } catch (Exception ignored) {
-                // ignore close errors
-            }
-            stageBuilder = null;
-        }
-
-        // Create a fresh StageBuilder/window
-        startGame();
+        setupScenes();
+        showMenu();
     }
 }

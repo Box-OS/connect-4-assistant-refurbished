@@ -5,6 +5,5 @@ module com.app {
 
     exports app;
     exports logic;
-    exports scene;
     exports ui;
 }

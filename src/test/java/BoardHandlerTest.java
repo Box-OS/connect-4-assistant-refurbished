@@ -148,6 +148,79 @@ public class BoardHandlerTest {
         System.out.println("The next landing position is："+ boardHandler.nextMove(1));
     }
 
+    @Test
+    public void nextMoveNoMoves() {
+        // Fill the board
+        for (int col = 0; col < 7; col++) {
+            for (int i = 0; i < 6; i++) {
+                boardHandler.placePiece(col, (i % 2) + 1);
+            }
+        }
+        int move = boardHandler.nextMove(1);
+        System.out.println("Move on full board: " + move);
+        org.junit.Assert.assertEquals(-1, move);
+    }
+
+    @Test
+    public void nextMoveAfterWin() {
+        // Player 1 wins
+        boardHandler.placePiece(0, 1);
+        boardHandler.placePiece(1, 1);
+        boardHandler.placePiece(2, 1);
+        boardHandler.placePiece(3, 1);
+        
+        // Even if board is not full, findBestMove might still return something 
+        // because it doesn't check if the game is ALREADY won at the start of the method.
+        // It only checks if the NEW move leads to a win.
+        int move = boardHandler.nextMove(1);
+        System.out.println("Move after win: " + move);
+    }
+
+    @Test
+    public void testBlockingMove() {
+        // Setup: Player 2 (opponent for nextMove(1)) has 3 in a row
+        // Player 1 = Red, Player 2 = Blue
+        // Red's turn (nextMove(1))
+        
+        // Opponent (Blue) pieces
+        boardHandler.placePiece(0, 2);
+        boardHandler.placePiece(1, 2);
+        boardHandler.placePiece(2, 2);
+        
+        System.out.println("Board state before suggestion:");
+        boardHandler.dump();
+        
+        int suggestion = boardHandler.nextMove(1);
+        System.out.println("Suggested move for Red: " + suggestion);
+        
+        // Red should block at column 3
+        org.junit.Assert.assertEquals("Red should block Blue's win at column 3", 3, suggestion);
+    }
+
+    @Test
+    public void testWinningMovePriority() {
+        // Red has 3 in a row (0, 1, 2)
+        // Blue has 3 in a row (0, 1, 2) on the next row up
+        // Red should win at column 3 rather than blocking Blue at column 3 (if it was a threat)
+        // Actually blocking a threat is good, but winning is better.
+        
+        // Let's make it more clear:
+        // Red can win at col 3.
+        // Blue can win at col 4.
+        // Red should pick 3.
+        
+        boardHandler.placePiece(0, 1);
+        boardHandler.placePiece(1, 1);
+        boardHandler.placePiece(2, 1);
+        
+        boardHandler.placePiece(0, 2);
+        boardHandler.placePiece(1, 2);
+        boardHandler.placePiece(2, 2);
+        
+        int suggestion = boardHandler.nextMove(1);
+        org.junit.Assert.assertEquals("Red should prefer winning at column 3", 3, suggestion);
+    }
+
 
 }
 

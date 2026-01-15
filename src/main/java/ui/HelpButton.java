@@ -16,7 +16,7 @@ public class HelpButton extends ButtonBuilder {
         Alert alert;
         alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setContentText(
-            "Inside input box, type the column number (1-7) to insert a checker, then press enter.\n"
+            "Click on the triangles above each column to drop a checker.\n"
                 +"\n \n \n"+
 
 
@@ -25,7 +25,7 @@ public class HelpButton extends ButtonBuilder {
             "─▒▒▒▒▒▒▒─▐████──█─█\n" +
             "─▒▒▒▒▒▒▒──█████▄\n" +
             "─▒─▒─▒─▒───▀████▀\n" +
-            "-Tool developed by [team name]"
+            "- Tool developed by Box-OS"
         );
 
         EventHandler<ActionEvent> helpPopup = e -> alert.show();

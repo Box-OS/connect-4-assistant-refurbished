@@ -38,7 +38,9 @@ public class Board {
      * @param row y position (1-6)
      */
     public void highlightSlot(int col, int row) {
-        slot[ROWS-(row)][col-1].highlight();
+        if (row >= 1 && row <= ROWS && col >= 1 && col <= COLS) {
+            slot[ROWS - row][col - 1].highlight();
+        }
     }
 
     /**
@@ -59,7 +61,9 @@ public class Board {
      * @param row y position (1-6)
      */
     public void insertCircle(String type, int row, int col) {
-         slot[row][col-1].createCircle(type);
+        if (row >= 0 && row < ROWS && col >= 1 && col <= COLS) {
+            slot[row][col - 1].createCircle(type);
+        }
     }
 
     //Getters and Setters

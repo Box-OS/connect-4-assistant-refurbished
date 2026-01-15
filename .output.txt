@@ -124,7 +124,7 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----         1/13/2026  12:46 AM                app
 d-----         1/13/2026  12:46 AM                logic
-d-----         1/13/2026  12:46 AM                scene
+d-----         1/13/2026  12:46 AM                window
 d-----         1/13/2026  12:46 AM                ui
     Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
     \build\classes\java\main\app
@@ -141,7 +141,7 @@ Mode                 LastWriteTime         Length Name
 -a----         1/13/2026  12:46 AM           1049 GravityHandler.class
 -a----         1/13/2026  12:46 AM            481 InputHandler.class
     Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
-    \build\classes\java\main\scene
+    \build\classes\java\main\window
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 -a----         1/13/2026  12:46 AM            532 BaseScene.class
@@ -356,7 +356,7 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----         1/13/2026  12:44 AM                app
 d-----         1/13/2026  12:38 AM                logic
-d-----         1/13/2026  12:42 AM                scene
+d-----         1/13/2026  12:42 AM                window
 d-----         1/13/2026  12:44 AM                ui
     Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
     \src\main\java\app
@@ -372,7 +372,7 @@ Mode                 LastWriteTime         Length Name
 -a----         1/13/2026  12:38 AM           2393 GravityHandler.java
 -a----         1/13/2026  12:38 AM            934 InputHandler.java
     Directory: C:\Users\Sina\Documents\Projects\connect-4-assistant-refurbished
-    \src\main\java\scene
+    \src\main\java\window
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 -a----         1/13/2026  12:38 AM            381 BaseScene.java
