@@ -8,7 +8,7 @@ A JavaFX desktop app that helps play/analyze Connect 4. Refurbished from an olde
 
 ## Run
 ```
-gradlew run
+./gradlew run
 ```
 
 ## Original Repo
