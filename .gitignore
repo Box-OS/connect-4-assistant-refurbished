@@ -29,3 +29,7 @@ bin/
 .DS_Store
 .idea
 *.iml
+
+### Cache ###
+.gradle/
+build/
