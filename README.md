@@ -7,6 +7,7 @@ A JavaFX desktop app that helps play/analyze Connect 4. Refurbished from an olde
 - Uses the Gradle wrapper, so no separate Gradle install is required.
 
 ## Run
+```
 gradlew run
 ```
 
